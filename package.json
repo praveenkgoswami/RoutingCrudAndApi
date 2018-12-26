@@ -5,7 +5,8 @@
   "main": "compute.js",
   "scripts": {
     "dev": "./node_modules/.bin/webpack --mode=none",
-    "dev-server": "webpack-dev-server --mode=none"
+    "dev-server": "webpack-dev-server --mode=none",
+    "start_win": "SET NODE_ENV=none & webpack-dev-server --mode=none --open --hot --watch --info-verbosity verbose"
   },
   "keywords": [],
   "author": "",

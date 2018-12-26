@@ -83,6 +83,6 @@ const EditPage2 = (props) => {
 
         </div>
     )
-}
+};
 
 export default withRouter(EditPage2)
